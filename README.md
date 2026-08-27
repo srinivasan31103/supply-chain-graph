@@ -2,6 +2,8 @@
 
 This is a full-stack web application that demonstrates **Supply Chain Disruption Risk Assessment & Product Provenance Traceability**. It is backed by **CognoDB Cloud**, a high-performance managed graph database, using openCypher and the official Neo4j driver.
 
+🌐 **[Live Hosted Application Demo](https://supply-chain-graph-90zk.onrender.com)**
+
 ---
 
 ## 🌟 Why a Graph Database?
