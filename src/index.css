@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bgMain text-[#f3f4f6] font-sans min-h-screen overflow-x-hidden antialiased;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+::-webkit-scrollbar-thumb {
+  background: #25304b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* vis-network tooltip styling */
+div.vis-network div.vis-tooltip {
+  background-color: #151b2c !important;
+  border: 1px solid #25304b !important;
+  color: #f3f4f6 !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 12px !important;
+  padding: 8px 12px !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Custom select styling for Windows Chrome */
+select.form-select option {
+  background-color: #151b2c !important;
+  color: #f3f4f6 !important;
+}
+
+/* Custom spin animation utility */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-slow {
+  animation: spin 3s linear infinite;
+}
