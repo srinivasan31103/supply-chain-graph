@@ -129,13 +129,14 @@ Open your browser to [http://localhost:5173](http://localhost:5173) to interact 
 
 Here is the interactive dashboard in action, simulating a supplier failure and highlighting cascading risk across the graph:
 
-![SupplyChainGraph Dashboard](screenshots/dashboard.png)
+![SupplyChainGraph Dashboard](assets/dashboard.png)
 
 Below is a screen recording demonstrating the interactive features (disruption simulation, alternate supplier recommendation, and order provenance trace):
 
 🎥 **[Watch the HD Demo Video on Google Drive](https://drive.google.com/file/d/1Xdeu0_pBwGbe5pZbCX9Ip32jwyUo2W6E/view?usp=sharing)**
 
-![SupplyChainGraph Walkthrough](screenshots/demo.webp)
+![SupplyChainGraph Walkthrough](assets/demo.webp)
+
 
 
 
